@@ -3,57 +3,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion</title>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <header>
+      <a href="./index.html">home</a>
+      <a href="./customer.html">customer</a>
+    </header>
     <!-- section rev start -->
-    <section>
-      <h2>What Clients Say</h2>
-      <p>
-        Problems trying to resolve the conflict between the two major realms of
-        Classical physics: Newtonian mechanics
-      </p>
-      <ul>
-        <li>
-          <p>
-            Product helps you see how many more days you need to work to reach
-            your financial goal.
-          </p>
-          <img src="./imeges/rev.jpg" alt="Wahid Ari" width="50" height="50" />
-          <h3>Wahid Ari</h3>
-          <p>Designer</p>
-        </li>
-        <li>
-          <p>
-            Product helps you see how many more days you need to work to reach
-            your financial goal.
-          </p>
-          <img
-            src="./imeges/rev-2.jpg"
-            alt="Wahid Ari"
-            width="50"
-            height="50"
-          />
-          <h3>Wahid Ari</h3>
-          <p>Designer</p>
-        </li>
-        <li>
-          <p>
-            Product helps you see how many more days you need to work to reach
-            your financial goal.
-          </p>
-          <img
-            src="./imeges/rev_3.jpg"
-            alt="Wahid Ari"
-            width="50"
-            height="50"
-          />
-          <h3>Wahid Ari</h3>
-          <p>Designer</p>
-        </li>
-      </ul>
+    <section class="section clients">
+      <div class="container">
+        <h2 class="clients-title">What Clients Say</h2>
+        <p class="clients-text">
+          Problems trying to resolve the conflict between<span
+            >the two major realms of Classical physics: Newtonian
+            mechanics</span
+          >
+        </p>
+        <ul class="clients-list">
+          <li class="clients-item">
+            <p class="clients-item-desc">
+              Product helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+            <img
+              src="./imeges/rev.jpg"
+              alt="Wahid Ari"
+              width="50"
+              height="50"
+            />
+            <h3 class="clients-item-title">Wahid Ari</h3>
+            <p class="clients-item-text">Designer</p>
+          </li>
+          <li class="clients-item">
+            <p class="clients-item-desc">
+              Product helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+            <img
+              src="./imeges/rev-2.jpg"
+              alt="Wahid Ari"
+              width="50"
+              height="50"
+            />
+            <h3 class="clients-item-title">Wahid Ari</h3>
+            <p class="clients-item-text">Designer</p>
+          </li>
+          <li class="clients-item">
+            <p class="clients-item-desc">
+              Product helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+            <div class="clients-item-inner">
+              <img
+                class="clients-item-img"
+                src="./imeges/rev_3.jpg"
+                alt="Wahid Ari"
+                width="50"
+                height="50"
+              />
+              <div class="clients-item-container">
+                <h3 class="clients-item-title">Wahid Ari</h3>
+                <p class="clients-item-text">Designer</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!--  section rev end -->
